@@ -1,12 +1,15 @@
+import Layout from '../components/template/Layout'
+
 const Home = () => {
   return (
-    <div
-      className={`
-    flex justify-center items-center h-screen
-    bg-gradient-to-r from-red-500 to-blue-500`}
-    >
-      <h1>Olá Mundo!</h1>
-    </div>
+    <>
+      <Layout
+        title="Página Inicial"
+        subtitle="Estamos contruindo um Template Admin"
+      >
+        <h1>Conteúdo da aplicação</h1>
+      </Layout>
+    </>
   )
 }
 
